@@ -96,7 +96,7 @@ Vue.material.registerTheme('default', {
 var app = new Vue({
   el: '#app',
   data: {
-    jsversion: '2',
+    jsversion: '3',
     mode: 'showlist',
     pagetitle: 'Shopping Lists',
     shoppingLists: [],
