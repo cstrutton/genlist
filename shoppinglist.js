@@ -96,6 +96,7 @@ Vue.material.registerTheme('default', {
 var app = new Vue({
   el: '#app',
   data: {
+    jsversion: '2',
     mode: 'showlist',
     pagetitle: 'Shopping Lists',
     shoppingLists: [],
@@ -543,5 +544,6 @@ var app = new Vue({
          this.shoppingListItems.splice(match.i, 1);
        });
      }
+          
   }
 })
